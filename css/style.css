@@ -31,7 +31,7 @@ h6 {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #7ed56f78, #28b48570), url("/img/hero.jpg");
+  background-image: linear-gradient(to right bottom, #7ed56f78, #28b48570), url("/assets/img/hero.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -39,11 +39,6 @@ h6 {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
-}
-
-.logo {
-  height: 70px;
-  border-radius: 50%;
+  top: 20px;
+  left: 20px;
 }
