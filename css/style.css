@@ -51,11 +51,41 @@ h6 {
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 14px;
+  animation: moveInLeft 1s ease-out;
 }
 
 .heading-primary-sub {
   display: block;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 700;
   letter-spacing: 14.5px;
+   animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  70% {
+     opacity: 0.5;
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
